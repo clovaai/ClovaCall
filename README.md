@@ -41,8 +41,8 @@ ClovaCall has two version, `raw` version and `clean` version. We used `librosa` 
 
 Dataset         | Number       | Hour (raw / clean)        |
 ----------------|--------------|---------------------------|
-Raw             | 111,853      | 171 / 91                  |
-Train           | 81,222       | 125 / 67                  |
+Raw             | 81,222       | 125 / 67                  |
+Train           | 59,662       | 80 / 50                  |
 Test            | 1,084        | 1.66 / 0.88                |
 
 ### The dataset structure
