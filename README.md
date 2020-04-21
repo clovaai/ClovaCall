@@ -81,7 +81,7 @@ To all the materials including speech data distributed here(hereinafter, “MATE
 ※ Please be noted that since the MATERIALS should be used within the confines of the voice right owner’s agreement (which was reflected in the LICENSE above), your non-compliance of the LICENSE (for example, using the MATERIAL for commercial use or modifying or distributing the MATERIAL) shall also constitute infringement on the voice right owner’s rights, thus may cause expose you to legal claims from the voice right owner.
 ```
 
-`ClovaCall` dataset can be download for researchers involved in Acdaemic Organizations by applying via [here](mailto:chankyu.lee@navercorp.com)
+`ClovaCall` dataset can be download for researchers involved in Acdaemic Organizations by applying via [here](https://docs.google.com/forms/d/e/1FAIpQLSf5bm7FtWYeZf8C02mlyZCg32yMrA9_DgKU17oD0migPkEXog/viewform)
 
 `AIhub` dataset can be download from [here](http://www.aihub.or.kr/aidata/105)
 (`AIhub` : this is a large-scale Korean open domain dialog corpus from NIA AIHub5, an open data hub site of Korean Govern-ment.) 
