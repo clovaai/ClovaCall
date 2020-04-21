@@ -125,7 +125,7 @@ Seq2seq(
 )
 ```
 
-### The LAS performance
+### The LAS performance (CER(%))
 
 `CC` : ClovaCall, `A` : AIhub, `NA` : Noise Augmentation, `SA` : SpecAugment
 
