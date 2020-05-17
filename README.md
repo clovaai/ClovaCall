@@ -2,7 +2,7 @@
 
 [ClovaCall: Korean Goal-Oriented Dialog Speech Corpus for Automatic Speech Recognition of Contact Centers](https://arxiv.org/abs/2004.09367)
 
-[Jung-Woo Ha](https://www.facebook.com/jungwoo.ha.921)<sup>1*</sup>, [Kihyun Nam](https://github.com/DevKiHyun)<sup>1,2*</sup>, [Jin Gu Kang](https://github.com/kibitzing)<sup>1</sup>, [Sang-Woo Lee](https://scholar.google.co.kr/citations?user=TMTTMuQAAAAJ)<sup>1</sup>, [Sohee Yang](https://github.com/soheeyang)<sup>1</sup>, [Hyunhoon Jung](https://www.linkedin.com/in/hyunhoon-jung-00a958a1/)<sup>1</sup>, Eunmi Kim<sup>1</sup>, <p>
+[Jung-Woo Ha](https://www.facebook.com/jungwoo.ha.921)<sup>1*</sup>, [Kihyun Nam](https://github.com/DevKiHyun)<sup>1,2*</sup>, [Jingu Kang](https://github.com/kibitzing)<sup>1</sup>, [Sang-Woo Lee](https://scholar.google.co.kr/citations?user=TMTTMuQAAAAJ)<sup>1</sup>, [Sohee Yang](https://github.com/soheeyang)<sup>1</sup>, [Hyunhoon Jung](https://www.linkedin.com/in/hyunhoon-jung-00a958a1/)<sup>1</sup>, Eunmi Kim<sup>1</sup>, <p>
 Hyeji Kim<sup>1</sup>, Soojin Kim<sup>1</sup>, Hyun Ah Kim<sup>1</sup>, [Kyoungtae Doh](https://github.com/ehrudxo)<sup>1</sup>, Chan Kyu Lee<sup>1</sup>, [Nako Sung](https://github.com/nakosung)<sup>1</sup>, Sunghun Kim<sup>1</sup> 
 
 <sup>1</sup>Clova AI, NAVER Corp.
