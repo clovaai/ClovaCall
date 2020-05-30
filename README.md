@@ -3,10 +3,11 @@
 [ClovaCall: Korean Goal-Oriented Dialog Speech Corpus for Automatic Speech Recognition of Contact Centers](https://arxiv.org/abs/2004.09367)
 
 [Jung-Woo Ha](https://www.facebook.com/jungwoo.ha.921)<sup>1*</sup>, [Kihyun Nam](https://github.com/DevKiHyun)<sup>1,2*</sup>, [Jingu Kang](https://github.com/kibitzing)<sup>1</sup>, [Sang-Woo Lee](https://scholar.google.co.kr/citations?user=TMTTMuQAAAAJ)<sup>1</sup>, [Sohee Yang](https://github.com/soheeyang)<sup>1</sup>, [Hyunhoon Jung](https://www.linkedin.com/in/hyunhoon-jung-00a958a1/)<sup>1</sup>, Eunmi Kim<sup>1</sup>, <p>
-Hyeji Kim<sup>1</sup>, Soojin Kim<sup>1</sup>, Hyun Ah Kim<sup>1</sup>, [Kyoungtae Doh](https://github.com/ehrudxo)<sup>1</sup>, Chan Kyu Lee<sup>1</sup>, [Nako Sung](https://github.com/nakosung)<sup>1</sup>, Sunghun Kim<sup>1</sup> 
+Hyeji Kim<sup>1</sup>, Soojin Kim<sup>1</sup>, Hyun Ah Kim<sup>1</sup>, [Kyoungtae Doh](https://github.com/ehrudxo)<sup>1</sup>, Chan Kyu Lee<sup>1</sup>, [Nako Sung](https://github.com/nakosung)<sup>1</sup>, Sunghun Kim<sup>1,3</sup> 
 
 <sup>1</sup>Clova AI, NAVER Corp.
 <sup>2</sup>Hankuk University on Foreign Studies <p>
+<sup>3</sup>The Hong Kong University of Science and Technology <p>
 <sup>*</sup> Both authors equally contributed to this work.
 
 Automatic speech recognition (ASR) via call is essential for various applications including AI for contact center (CCAI) services. Despite the advancement of ASR, however, most call speech corpora publicly available were old-fashioned such as Swichboard. Also, most call corpora are in English and mainly focus on open domain scenarios such as audio book. Here we introduce a new large-scale Korean call-based speech corpus under a goal-oriented dialog scenario from more than 11,000 people, i.e. Clova Call corpus (ClovaCall). The raw dataset of ClovaCall includes approximately 112,000 pairs of a short sentence and its corresponding spoken utterance in a restaurant reservation domain. We validate the effectiveness of our dataset with intensive experiments on two state-of-the art ASR models.
