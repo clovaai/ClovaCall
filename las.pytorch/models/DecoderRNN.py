@@ -46,6 +46,8 @@ class DecoderRNN(nn.Module):
                                  batch_first=True, dropout=dropout_p, bidirectional=self.bidirectional_decoder)
 
         self.embedding = nn.Embedding(self.vocab_size, self.hidden_size)
+        self.input_dropout == nn.Dropout(self.dropout_p)
+        
         self.attention = Attention(dec_dim=self.hidden_size, enc_dim=self.encoder_output_size, conv_dim=1, attn_dim=self.hidden_size)
         self.fc = nn.Linear(self.hidden_size + self.encoder_output_size, self.output_size)
 
