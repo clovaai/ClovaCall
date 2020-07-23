@@ -30,6 +30,7 @@ class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size, n_layers=1,
                  input_dropout_p=0, dropout_p=0,
                  bidirectional=False, rnn_cell='gru', variable_lengths=False):
+        super(EncoderRNN, self).__init__()
 
         self.hidden_size = hidden_size
         self.bidirectional = bidirectional
@@ -79,13 +80,17 @@ class EncoderRNN(nn.Module):
         
         x_size = x.size()
         x = x.view(x_size[0], x_size[1] * x_size[2], x_size[3]) # (B, C * D, T)
-        x = x.transpose(1, 2).transpose(0, 1).contiguous() # (T, B, D)
+        x = x.permute(0, 2, 1).contiguous() # (B,T,D)
 
-        x = nn.utils.rnn.pack_padded_sequence(x, output_lengths)
+        total_length = x_size[3]
+        x = nn.utils.rnn.pack_padded_sequence(x,
+                                              output_lengths,
+                                              batch_first=True,
+                                              enforce_sorted=False)
         x, h_state = self.rnn(x)
-        x, _ = nn.utils.rnn.pad_packed_sequence(x)
-        
-        x = x.transpose(0, 1) # (B, T, D)
+        x, _ = nn.utils.rnn.pad_packed_sequence(x,
+                                                batch_first=True,
+                                                total_length=total_length)
 
         return x, h_state
 
