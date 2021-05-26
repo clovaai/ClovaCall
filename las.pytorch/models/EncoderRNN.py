@@ -84,7 +84,7 @@ class EncoderRNN(nn.Module):
 
         total_length = x_size[3]
         x = nn.utils.rnn.pack_padded_sequence(x,
-                                              output_lengths,
+                                              output_lengths.cpu(),
                                               batch_first=True,
                                               enforce_sorted=False)
         x, h_state = self.rnn(x)
