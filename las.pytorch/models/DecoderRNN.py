@@ -20,7 +20,8 @@ class DecoderRNN(nn.Module):
                  n_layers=1, rnn_cell='gru', 
                  bidirectional_encoder=False, bidirectional_decoder=False,
                  dropout_p=0, use_attention=True):
-
+        super(DecoderRNN, self).__init__()
+        
         self.output_size = vocab_size
         self.vocab_size = vocab_size
         self.hidden_size = hidden_size
